@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+     <!--tailwind css link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!--navbar-->
+     <nav
+      class="bg-green-100 p-3 flex item-center justify-between shadow-xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl">GREEDEN</h1>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="w-6 h-6 md:hidden"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd"
+        />
+      </svg>
+
+      <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="product.html">Products</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="contact.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <!--our product-->
+    <div class="text-center m-5">
+    <h1 class="font-bold text-3xl">Our Product</h1>
+    <input type="text" placeholder="search for a product" class="border border-black mt-5 p-3" style="width:80% ;">
+    </div>
+    <!--product images-->
+   <div class="grid grid-cols-2 md:grid-cols-3 text-center mt-8">
+      <div>
+     <img src="./images/bestseller-1.jpg" alt="plant picture 1" class="mt-5 inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>Decorative Plant</h1>
+     <p>$20</p>
+     </div>
+     <div>
+     <img src="./images/best.jpg" alt="plant picture 1" class="mt-5  inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>Rose plant</h1>
+     <p>$50</p>
+     </div>
+     <div>
+     <img src="./images/bestseller-2.jpg" alt="plant picture 1" class="mt-5  inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>Voilet Flower Plant</h1>
+     <p>$10</p>
+     </div>
+     <div>
+     <img src="./images/bestseller-4.jpg" alt="plant picture 1" class="mt-5  inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>lotus Plant</h1>
+     <p>$30</p>
+     </div>
+     <div>
+     <img src="./images/bestseller-5.jpg" alt="plant picture 1" class="mt-5  inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>Tulip plant</h1>
+     <p>$50</p></div>
+     <div>
+     <img src="./images/bestseller-6.jpg" alt="plant picture 1" class="mt-5  inline hover:shadow-xl transform hover:-translate-y-2 w-48 h-48">
+     <h1>Daisy plant</h1>
+     <p>$40</p>
+     </div>
+     </div>
+     <!--footer-->
+      <section class="bg-green-100 p-10 mt-8">
+       <h1 class="font-bold text-4xl mb-5">Greenden</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, impedit?</p>
+       <p class="mt-5">@ 2021 Greenday.com</p>
+    </section>
+</body>
+</html>
